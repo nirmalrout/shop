@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/CategorySection.css";
+import "../assets/css/categorySection.css";
 
 const categories = [
   {
