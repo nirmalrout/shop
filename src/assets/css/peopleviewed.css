@@ -1,0 +1,21 @@
+.people-viewed{
+    padding: 100px 10px 0;
+}
+.people-viewed h2{
+    margin: 0 0 50px;
+    font-size: 2rem;
+    color: #747474;
+    font-weight: 500;
+}
+.people-viewed .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card-container .cards{
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 1rem;
+}

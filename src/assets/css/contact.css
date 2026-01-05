@@ -1,0 +1,128 @@
+.contact{
+    padding: 50px 10px 0;
+}
+.contact .container-box {
+  background-color: #e6f2fa;
+  background-image: url("../images/bg-leaves-img-pattern.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 30px;
+  padding: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+.contact .container-box .left-section h3{
+    font-size: 3.3rem;
+    color: #737373;
+    font-weight: 400;
+    margin: 0;
+}
+.contact .container-box .left-section h3 span{
+    color: #ffc640;
+}
+.contact .container-box .left-section p,
+.contact .container-box .right-section .form-group{
+    font-size: 1rem;
+    color: #737373;
+    margin: 0;
+}
+.contact .container-box .right-section .form-group{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.contact .container-box .right-section .form-group input{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-size: 1rem;
+}
+.contact .container-box .right-section .checkbox-div{
+    display: flex;
+    gap: 10px;
+}
+.contact .container-box .right-section .checkbox-div input{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.contact .container-box .right-section .submit-btn{
+    background-color: #212529;
+    color: #fff;
+    width: 100%;
+    padding: 13px 0;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+/* =========================
+   Tablet (≤1024px)
+========================= */
+@media (max-width: 1024px) {
+  .contact .container-box {
+    padding: 80px;
+    gap: 40px;
+  }
+
+  .contact .container-box .left-section h3 {
+    font-size: 2.6rem;
+  }
+}
+
+/* =========================
+   Mobile (≤768px)
+========================= */
+@media (max-width: 768px) {
+  .contact {
+    padding-top: 40px;
+  }
+
+  .contact .container-box {
+    grid-template-columns: 1fr;
+    padding: 50px 25px;
+    gap: 30px;
+  }
+
+  .contact .container-box .left-section h3 {
+    font-size: 2.1rem;
+  }
+
+  .contact .container-box .left-section p {
+    font-size: 0.95rem;
+  }
+
+  .contact .container-box .right-section .submit-btn {
+    font-size: 1.1rem;
+  }
+}
+
+/* =========================
+   Small Mobile (≤480px)
+========================= */
+@media (max-width: 480px) {
+  .contact .container-box {
+    padding: 35px 18px;
+    border-radius: 20px;
+  }
+
+  .contact .container-box .left-section h3 {
+    font-size: 1.8rem;
+  }
+
+  .contact .container-box .right-section .form-group input {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+
+  .contact .container-box .right-section .submit-btn {
+    font-size: 1rem;
+  }
+}

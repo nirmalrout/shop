@@ -1,0 +1,122 @@
+footer{
+    padding: 100px 10px 0;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: 22% 18% 18% 18% 24%;
+}
+.footer-top h6{
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 400;
+}
+.footer-top a,.footer-top p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #747474;
+}
+.footer-bottom p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #747474;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.subscribeInput{
+    display: flex;
+    flex-direction: row;
+}
+.subscribeInput input{
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.subscribeInput button{
+    background-color: #212529;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+/* =========================
+   Tablet (≤1024px)
+========================= */
+@media (max-width: 1024px) {
+  .footer-top {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    padding-top: 80px;
+  }
+}
+
+/* =========================
+   Mobile (≤768px)
+========================= */
+@media (max-width: 768px) {
+  .footer-top {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .subscribeInput {
+    flex-direction: column;
+  }
+
+  .subscribeInput input,
+  .subscribeInput button {
+    width: 100%;
+    border-radius: 7px;
+  }
+
+  .subscribeInput button {
+    margin-top: 10px;
+  }
+}
+
+/* =========================
+   Small Mobile (≤480px)
+========================= */
+@media (max-width: 480px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top h6 {
+    font-size: 1.1rem;
+  }
+
+  .footer-top a,
+  .footer-top p,
+  .footer-bottom p {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    padding-top: 60px;
+  }
+}

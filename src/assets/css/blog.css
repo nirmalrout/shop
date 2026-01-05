@@ -1,0 +1,130 @@
+.blog{
+    padding: 50px 10px 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header-container h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #747474;
+}
+.header-container a{
+    color: #747474;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card-container .card{
+    border: none;
+    box-shadow: 0px 0px 4px #00000040;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 16px;
+}
+.card-container .card img{
+    width: 100%;
+}
+.card .card-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #747474;
+}
+.card .card-info .date,.card .card-info .category{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.card h6{
+    font-size: 1.8rem;
+    color: #282828;
+    font-weight: 400;
+    margin: 0;
+}
+.card p{
+    font-size: 1rem;
+    color: #747474;
+}
+
+/* =========================
+   Tablet (≤1024px)
+========================= */
+@media (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header-container h2 {
+    font-size: 1.75rem;
+  }
+
+  .card h6 {
+    font-size: 1.5rem;
+  }
+}
+
+/* =========================
+   Mobile (≤768px)
+========================= */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .header-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .card h6 {
+    font-size: 1.35rem;
+  }
+
+  .card p {
+    font-size: 0.95rem;
+  }
+}
+
+/* =========================
+   Small Mobile (≤480px)
+========================= */
+@media (max-width: 480px) {
+  .blog {
+    padding-top: 30px;
+  }
+
+  .header-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .header-container a {
+    font-size: 0.9rem;
+  }
+
+  .card-container {
+    gap: 16px;
+  }
+
+  .card h6 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}

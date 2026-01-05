@@ -1,0 +1,126 @@
+.get-the-app{
+    padding: 100px 10px 0;
+    margin: 100px 0;
+}
+.get-the-app .container-box{
+    background-color: #fff9eb;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    padding: 100px;
+}
+.get-the-app .container-box .left-section{
+    position: relative;
+}
+.get-the-app .container-box .left-section img{
+    position: absolute;
+    top: -180px;
+}
+.get-the-app .container-box .right-section h5{
+    margin: 0 0 50px;
+    font-size: 2rem;
+    color: #747474;
+    font-weight: 500;
+}
+.get-the-app .container-box .right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-section p{
+    font-size: 1rem;
+    color: #747474;
+}
+.right-section .app-buttons{
+    display: flex;
+    gap: 10px;
+}
+.right-section .app-buttons img{
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+/* =========================
+   Tablet (≤1024px)
+========================= */
+@media (max-width: 1024px) {
+  .get-the-app {
+    padding-top: 80px;
+    margin: 80px 0;
+  }
+
+  .get-the-app .container-box {
+    grid-template-columns: 40% 1fr;
+    padding: 60px;
+  }
+
+  .get-the-app .container-box .left-section img {
+    top: -120px;
+  }
+
+  .get-the-app .container-box .right-section h5 {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+  }
+}
+
+/* =========================
+   Mobile (≤768px)
+========================= */
+@media (max-width: 768px) {
+  .get-the-app {
+    padding-top: 60px;
+    margin: 60px 0;
+  }
+
+  .get-the-app .container-box {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .get-the-app .container-box .left-section {
+    order: -1;
+    min-height: 260px;
+  }
+
+  .get-the-app .container-box .left-section img {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 160px;
+  }
+
+  .right-section .app-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* =========================
+   Small Mobile (≤480px)
+========================= */
+@media (max-width: 480px) {
+  .get-the-app {
+    padding-top: 40px;
+    margin: 40px 0;
+  }
+
+  .get-the-app .container-box {
+    border-radius: 20px;
+    padding: 30px 15px;
+  }
+
+  .get-the-app .container-box .right-section h5 {
+    font-size: 1.4rem;
+  }
+
+  .right-section p {
+    font-size: 0.95rem;
+  }
+
+  .right-section .app-buttons img {
+    max-width: 140px;
+  }
+}
