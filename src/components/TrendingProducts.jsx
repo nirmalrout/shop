@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../assets/css/TrendingProduct.css";
+import "../assets/css/trendingProduct.css";
 
 const TABS = [
   { label: "ALL", value: "ALL" },
