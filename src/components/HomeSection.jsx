@@ -6,19 +6,19 @@ const carouselData = [
     title: "Heinz Tomato Ketchup",
     subtitle: "100% Natural",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam elementum.",
-    image: "./src/assets/images/product-thumb-1.png",
+    image: "/images/product-thumb-1.png",
   },
   {
     title: "Organic Mustard",
     subtitle: "Fresh & Tasty",
     description: "High-quality organic mustard to spice up your meals.",
-    image: "./src/assets/images/product-thumb-1.png",
+    image: "/images/product-thumb-1.png",
   },
   {
     title: "Olive Oil",
     subtitle: "Pure & Healthy",
     description: "Premium olive oil to make your dishes delicious.",
-    image: "./src/assets/images/product-thumb-1.png",
+    image: "/images/product-thumb-1.png",
   },
 ];
 
@@ -28,13 +28,13 @@ const rightCards = [
     title: "Fruits & Vegetables",
     discount: "20% Off",
     bgColor: "#eaf4e8",
-    image: "./src/assets/images/ad-image-1.png",
+    image: "/images/ad-image-1.png",
   },
   {
     title: "Baked Products",
     discount: "15% Off",
     bgColor: "#fbeaea",
-    image: "./src/assets/images/ad-image-2.png",
+    image: "/images/ad-image-2.png",
   },
 ];
 

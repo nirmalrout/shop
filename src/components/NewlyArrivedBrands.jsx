@@ -6,25 +6,25 @@ const brands = [
     id: 1,
     title: "Amber Jar",
     desc: "Honey best nectar you wish to get",
-    image: "./src/assets/images/NewlyArrived/product-thumb-11.jpg"
+    image: "/images/NewlyArrived/product-thumb-11.jpg"
   },
   {
     id: 2,
     title: "Amber Jar",
     desc: "Honey best nectar you wish to get",
-    image: "./src/assets/images/NewlyArrived/product-thumb-12.jpg"
+    image: "/images/NewlyArrived/product-thumb-12.jpg"
   },
   {
     id: 3,
     title: "Amber Jar",
     desc: "Honey best nectar you wish to get",
-    image: "./src/assets/images/NewlyArrived/product-thumb-13.jpg"
+    image: "/images/NewlyArrived/product-thumb-13.jpg"
   },
   {
     id: 4,
     title: "Amber Jar",
     desc: "Honey best nectar you wish to get",
-    image: "./src/assets/images/NewlyArrived/product-thumb-14.jpg"
+    image: "/images/NewlyArrived/product-thumb-14.jpg"
   }
 ];
 

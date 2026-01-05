@@ -5,7 +5,7 @@ const GetTheApp = () => {
         <section className='get-the-app'>
             <div className="container-box">
                 <div className='left-section'>
-                    <img src='./src/assets/images/phone.png' alt='phone' className='phone' />
+                    <img src='/images/phone.png' alt='phone' className='phone' />
                 </div>
                 <div className='right-section'>
                     <h5>Shop faster with foodmart App</h5>
@@ -14,8 +14,8 @@ const GetTheApp = () => {
                     Amet blandit tortor praesent ante vitae. A, enim pretiummi senectus magna. Sagittis sed ptibus liberolectus non et psryroin.
                     </p>
                     <div className='app-buttons'>
-                        <img src='./src/assets/images/app-store.jpg' alt='app-store' />
-                        <img src='./src/assets/images/google-play.jpg' alt='google-play' />
+                        <img src='/images/app-store.jpg' alt='app-store' />
+                        <img src='/images/google-play.jpg' alt='google-play' />
                     </div>
                 </div>
             </div>

@@ -4,21 +4,21 @@ const Blogs = [
     {
         heading: "Top 10 casual look ideas to dress up your kids",
         description: "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbir",
-        img: "./src/assets/images/Blog/post-thumb-1.jpg",
+        img: "/images/Blog/post-thumb-1.jpg",
         date: "22 Aug 2021",
         category: "Tips & Tricks"
     },
     {
         heading: "Latest trends of wearing street wears supremely",
         description: "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbir",
-        img: "./src/assets/images/Blog/post-thumb-2.jpg",
+        img: "/images/Blog/post-thumb-2.jpg",
         date: "25 Aug 2021",
         category: "Trending"
     },
     {
         heading: "10 Different Types of comfortable clothes ideas for women",
         description: "Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbir",
-        img: "./src/assets/images/Blog/post-thumb-3.jpg",
+        img: "/images/Blog/post-thumb-3.jpg",
         date: "28 Aug 2021",
         category: "Inspiration"
     }

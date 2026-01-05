@@ -25,7 +25,7 @@ const PromoBanner = () => {
         tag="Upto 25% Off"
         title="Luxa Dark Chocolate"
         desc="Very tasty & creamy vanilla flavour creamy muffins."
-        image="./src/assets/images/ad-image-3.png"
+        image="/images/ad-image-3.png"
       />
 
       <PromoCard
@@ -33,7 +33,7 @@ const PromoBanner = () => {
         tag="Upto 25% Off"
         title="Creamy Muffins"
         desc="Very tasty & creamy vanilla flavour creamy muffins."
-        image="./src/assets/images/ad-image-4.png"
+        image="/images/ad-image-4.png"
       />
     </section>
   );

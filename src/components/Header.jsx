@@ -11,7 +11,7 @@ export default function Header() {
       <div className="header-container">
         {/* Logo Section */}
         <div className="logo-section">
-          <img src='./src/assets/images/logo.png' alt='logo' className='logo'/>
+          <img src='/images/logo.png' alt='logo' className='logo'/>
         </div>
 
         {/* Main Content Section */}
