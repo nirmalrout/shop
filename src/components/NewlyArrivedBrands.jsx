@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "../assets/css/NewlyArrivedBrands.css";
+import "../assets/css/newlyArrivedBrands.css";
 
 const brands = [
   {
